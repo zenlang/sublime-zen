@@ -1,6 +1,6 @@
 # [PackageDev] target_format: plist, ext: tmPreferences
-name: Zig
-scope: source.zig
+name: Zen
+scope: source.zen
 settings:
   shellVariables:
   - name: TM_COMMENT_START

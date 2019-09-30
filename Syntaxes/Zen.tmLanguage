@@ -4,10 +4,10 @@
 <dict>
 	<key>fileTypes</key>
 	<array>
-		<string>zig</string>
+		<string>zen</string>
 	</array>
 	<key>name</key>
-	<string>Zig</string>
+	<string>Zen</string>
 	<key>patterns</key>
 	<array>
 		<dict>
@@ -26,16 +26,16 @@
 				<key>1</key>
 				<dict>
 					<key>name</key>
-					<string>storage.type.zig</string>
+					<string>storage.type.zen</string>
 				</dict>
 				<key>2</key>
 				<dict>
 					<key>name</key>
-					<string>punctuation.section.braces.begin.zig</string>
+					<string>punctuation.section.braces.begin.zen</string>
 				</dict>
 			</dict>
 			<key>contentName</key>
-			<string>meta.block.zig</string>
+			<string>meta.block.zen</string>
 			<key>end</key>
 			<string>(\})</string>
 			<key>endCaptures</key>
@@ -43,7 +43,7 @@
 				<key>1</key>
 				<dict>
 					<key>name</key>
-					<string>punctuation.section.braces.end.zig</string>
+					<string>punctuation.section.braces.end.zen</string>
 				</dict>
 			</dict>
 			<key>patterns</key>
@@ -62,49 +62,49 @@
 					<key>match</key>
 					<string>\\n</string>
 					<key>name</key>
-					<string>constant.character.escape.newline.zig</string>
+					<string>constant.character.escape.newline.zen</string>
 				</dict>
 				<dict>
 					<key>match</key>
 					<string>\\r</string>
 					<key>name</key>
-					<string>constant.character.escape.carrigereturn.zig</string>
+					<string>constant.character.escape.carrigereturn.zen</string>
 				</dict>
 				<dict>
 					<key>match</key>
 					<string>\\t</string>
 					<key>name</key>
-					<string>constant.character.escape.tabulator.zig</string>
+					<string>constant.character.escape.tabulator.zen</string>
 				</dict>
 				<dict>
 					<key>match</key>
 					<string>\\\\</string>
 					<key>name</key>
-					<string>constant.character.escape.backslash.zig</string>
+					<string>constant.character.escape.backslash.zen</string>
 				</dict>
 				<dict>
 					<key>match</key>
 					<string>\\'</string>
 					<key>name</key>
-					<string>constant.character.escape.single-quote.zig</string>
+					<string>constant.character.escape.single-quote.zen</string>
 				</dict>
 				<dict>
 					<key>match</key>
 					<string>\\\"</string>
 					<key>name</key>
-					<string>constant.character.escape.double-quote.zig</string>
+					<string>constant.character.escape.double-quote.zen</string>
 				</dict>
 				<dict>
 					<key>match</key>
 					<string>\\x[a-fA-F0-9]{2}</string>
 					<key>name</key>
-					<string>constant.character.escape.hexidecimal.zig</string>
+					<string>constant.character.escape.hexidecimal.zen</string>
 				</dict>
 				<dict>
 					<key>match</key>
 					<string>\\u\{[a-fA-F0-9]{1,6}\}</string>
 					<key>name</key>
-					<string>constant.character.escape.hexidecimal.zig</string>
+					<string>constant.character.escape.hexidecimal.zen</string>
 				</dict>
 			</array>
 		</dict>
@@ -116,7 +116,7 @@
 					<key>match</key>
 					<string>TODO</string>
 					<key>name</key>
-					<string>comment.line.todo.zig</string>
+					<string>comment.line.todo.zen</string>
 				</dict>
 				<dict>
 					<key>begin</key>
@@ -124,7 +124,7 @@
 					<key>end</key>
 					<string>$\n?</string>
 					<key>name</key>
-					<string>comment.line.zig</string>
+					<string>comment.line.zen</string>
 					<key>patterns</key>
 					<array>
 						<dict>
@@ -139,7 +139,7 @@
 					<key>end</key>
 					<string>$\n?</string>
 					<key>name</key>
-					<string>comment.line.documentation.zig</string>
+					<string>comment.line.documentation.zen</string>
 				</dict>
 			</array>
 		</dict>
@@ -151,43 +151,43 @@
 					<key>match</key>
 					<string>\b(null|undefined|true|false)\b</string>
 					<key>name</key>
-					<string>constant.language.zig</string>
+					<string>constant.language.zen</string>
 				</dict>
 				<dict>
 					<key>match</key>
 					<string>\b(?&lt;!\.)(-?[0-9]+)(?!\.)\b</string>
 					<key>name</key>
-					<string>constant.numeric.integer.zig</string>
+					<string>constant.numeric.integer.zen</string>
 				</dict>
 				<dict>
 					<key>match</key>
 					<string>\b(?&lt;!\.)(0x[a-fA-F0-9]+)(?!\.)\b</string>
 					<key>name</key>
-					<string>constant.numeric.integer.hexadecimal.zig</string>
+					<string>constant.numeric.integer.hexadecimal.zen</string>
 				</dict>
 				<dict>
 					<key>match</key>
 					<string>\b(?&lt;!\.)(0o[0-7]+)(?!\.)\b</string>
 					<key>name</key>
-					<string>constant.numeric.integer.octal.zig</string>
+					<string>constant.numeric.integer.octal.zen</string>
 				</dict>
 				<dict>
 					<key>match</key>
 					<string>\b(?&lt;!\.)(0b[01]+)(?!\.)\b</string>
 					<key>name</key>
-					<string>constant.numeric.integer.binary.zig</string>
+					<string>constant.numeric.integer.binary.zen</string>
 				</dict>
 				<dict>
 					<key>match</key>
 					<string>(?&lt;!\.)(-?\b[0-9]+(?:\.[0-9]+)?(?:[eE][+-]?[0-9]+)?)(?!\.)\b</string>
 					<key>name</key>
-					<string>constant.numeric.float.zig</string>
+					<string>constant.numeric.float.zen</string>
 				</dict>
 				<dict>
 					<key>match</key>
 					<string>(?&lt;!\.)(-?\b0x[a-fA-F0-9]+(?:\.[a-fA-F0-9]+)?[pP]?(?:[+-]?[0-9]+)?)(?!\.)\b</string>
 					<key>name</key>
-					<string>constant.numeric.float.hexadecimal.zig</string>
+					<string>constant.numeric.float.hexadecimal.zen</string>
 				</dict>
 			</array>
 		</dict>
@@ -203,37 +203,37 @@
 						<key>1</key>
 						<dict>
 							<key>name</key>
-							<string>entity.name.union.zig</string>
+							<string>entity.name.union.zen</string>
 						</dict>
 						<key>2</key>
 						<dict>
 							<key>name</key>
-							<string>storage.modifier.zig</string>
+							<string>storage.modifier.zen</string>
 						</dict>
 						<key>3</key>
 						<dict>
 							<key>name</key>
-							<string>storage.type.union.zig</string>
+							<string>storage.type.union.zen</string>
 						</dict>
 						<key>4</key>
 						<dict>
 							<key>name</key>
-							<string>punctuation.section.parens.begin.zig</string>
+							<string>punctuation.section.parens.begin.zen</string>
 						</dict>
 						<key>5</key>
 						<dict>
 							<key>name</key>
-							<string>storage.type.zig</string>
+							<string>storage.type.zen</string>
 						</dict>
 						<key>6</key>
 						<dict>
 							<key>name</key>
-							<string>punctuation.section.parens.end.zig</string>
+							<string>punctuation.section.parens.end.zen</string>
 						</dict>
 						<key>7</key>
 						<dict>
 							<key>name</key>
-							<string>punctuation.section.braces.begin.zig</string>
+							<string>punctuation.section.braces.begin.zen</string>
 						</dict>
 					</dict>
 					<key>contentName</key>
@@ -245,7 +245,7 @@
 						<key>1</key>
 						<dict>
 							<key>name</key>
-							<string>punctuation.section.braces.end.zig</string>
+							<string>punctuation.section.braces.end.zen</string>
 						</dict>
 					</dict>
 					<key>patterns</key>
@@ -264,26 +264,26 @@
 						<key>1</key>
 						<dict>
 							<key>name</key>
-							<string>entity.name.struct.zig</string>
+							<string>entity.name.struct.zen</string>
 						</dict>
 						<key>2</key>
 						<dict>
 							<key>name</key>
-							<string>storage.modifier.zig</string>
+							<string>storage.modifier.zen</string>
 						</dict>
 						<key>3</key>
 						<dict>
 							<key>name</key>
-							<string>storage.type.struct.zig</string>
+							<string>storage.type.struct.zen</string>
 						</dict>
 						<key>4</key>
 						<dict>
 							<key>name</key>
-							<string>punctuation.section.braces.begin.zig</string>
+							<string>punctuation.section.braces.begin.zen</string>
 						</dict>
 					</dict>
 					<key>contentName</key>
-					<string>meta.struct.zig</string>
+					<string>meta.struct.zen</string>
 					<key>end</key>
 					<string>(})</string>
 					<key>endCaptures</key>
@@ -291,7 +291,48 @@
 						<key>1</key>
 						<dict>
 							<key>name</key>
-							<string>punctuation.section.braces.end.zig</string>
+							<string>punctuation.section.braces.end.zen</string>
+						</dict>
+					</dict>
+					<key>patterns</key>
+					<array>
+						<dict>
+							<key>include</key>
+							<string>#main</string>
+						</dict>
+					</array>
+				</dict>
+				<dict>
+					<key>begin</key>
+					<string>(?:([a-zA-Z_]\w*|@\".+\")\s*=\s*)?\s*(interface)\s*({)</string>
+					<key>beginCaptures</key>
+					<dict>
+						<key>1</key>
+						<dict>
+							<key>name</key>
+							<string>entity.name.interface.zen</string>
+						</dict>
+						<key>2</key>
+						<dict>
+							<key>name</key>
+							<string>storage.modifier.zen</string>
+						</dict>
+						<key>4</key>
+						<dict>
+							<key>name</key>
+							<string>punctuation.section.braces.begin.zen</string>
+						</dict>
+					</dict>
+					<key>contentName</key>
+					<string>meta.interface.zen</string>
+					<key>end</key>
+					<string>(})</string>
+					<key>endCaptures</key>
+					<dict>
+						<key>1</key>
+						<dict>
+							<key>name</key>
+							<string>punctuation.section.braces.end.zen</string>
 						</dict>
 					</dict>
 					<key>patterns</key>
@@ -310,41 +351,41 @@
 						<key>1</key>
 						<dict>
 							<key>name</key>
-							<string>entity.name.enum.zig</string>
+							<string>entity.name.enum.zen</string>
 						</dict>
 						<key>2</key>
 						<dict>
 							<key>name</key>
-							<string>storage.modifier.zig</string>
+							<string>storage.modifier.zen</string>
 						</dict>
 						<key>3</key>
 						<dict>
 							<key>name</key>
-							<string>storage.type.enum.zig</string>
+							<string>storage.type.enum.zen</string>
 						</dict>
 						<key>4</key>
 						<dict>
 							<key>name</key>
-							<string>punctuation.section.parens.begin.zig</string>
+							<string>punctuation.section.parens.begin.zen</string>
 						</dict>
 						<key>5</key>
 						<dict>
 							<key>name</key>
-							<string>storage.type.zig</string>
+							<string>storage.type.zen</string>
 						</dict>
 						<key>6</key>
 						<dict>
 							<key>name</key>
-							<string>punctuation.section.parens.end.zig</string>
+							<string>punctuation.section.parens.end.zen</string>
 						</dict>
 						<key>7</key>
 						<dict>
 							<key>name</key>
-							<string>punctuation.section.braces.begin.zig</string>
+							<string>punctuation.section.braces.begin.zen</string>
 						</dict>
 					</dict>
 					<key>contentName</key>
-					<string>meta.enum.zig</string>
+					<string>meta.enum.zen</string>
 					<key>end</key>
 					<string>(})</string>
 					<key>endCaptures</key>
@@ -352,7 +393,7 @@
 						<key>1</key>
 						<dict>
 							<key>name</key>
-							<string>punctuation.section.braces.end.zig</string>
+							<string>punctuation.section.braces.end.zen</string>
 						</dict>
 					</dict>
 					<key>patterns</key>
@@ -371,21 +412,21 @@
 						<key>1</key>
 						<dict>
 							<key>name</key>
-							<string>entity.name.error.zig</string>
+							<string>entity.name.error.zen</string>
 						</dict>
 						<key>2</key>
 						<dict>
 							<key>name</key>
-							<string>storage.type.error.zig</string>
+							<string>storage.type.error.zen</string>
 						</dict>
 						<key>3</key>
 						<dict>
 							<key>name</key>
-							<string>punctuation.section.braces.begin.zig</string>
+							<string>punctuation.section.braces.begin.zen</string>
 						</dict>
 					</dict>
 					<key>contentName</key>
-					<string>meta.error.zig</string>
+					<string>meta.error.zen</string>
 					<key>end</key>
 					<string>(})</string>
 					<key>endCaptures</key>
@@ -393,7 +434,7 @@
 						<key>1</key>
 						<dict>
 							<key>name</key>
-							<string>punctuation.section.braces.end.zig</string>
+							<string>punctuation.section.braces.end.zen</string>
 						</dict>
 					</dict>
 					<key>patterns</key>
@@ -410,17 +451,17 @@
 						<key>1</key>
 						<dict>
 							<key>name</key>
-							<string>storage.type.error.zig</string>
+							<string>storage.type.error.zen</string>
 						</dict>
 						<key>2</key>
 						<dict>
 							<key>name</key>
-							<string>punctuation.accessor.zig</string>
+							<string>punctuation.accessor.zen</string>
 						</dict>
 						<key>3</key>
 						<dict>
 							<key>name</key>
-							<string>entity.name.error.zig</string>
+							<string>entity.name.error.zen</string>
 						</dict>
 					</dict>
 					<key>match</key>
@@ -437,16 +478,16 @@
 				<key>1</key>
 				<dict>
 					<key>name</key>
-					<string>variable.other.member.zig</string>
+					<string>variable.other.member.zen</string>
 				</dict>
 				<key>2</key>
 				<dict>
 					<key>name</key>
-					<string>punctuation.terminator.zig</string>
+					<string>punctuation.terminator.zen</string>
 				</dict>
 			</dict>
 			<key>contentName</key>
-			<string>storage.type.zig</string>
+			<string>storage.type.zen</string>
 			<key>end</key>
 			<string>(?:(,)|(?:\n|\r))</string>
 			<key>endCaptures</key>
@@ -454,7 +495,7 @@
 				<key>1</key>
 				<dict>
 					<key>name</key>
-					<string>punctuation.separator.zig</string>
+					<string>punctuation.separator.zen</string>
 				</dict>
 			</dict>
 			<key>patterns</key>
@@ -474,16 +515,16 @@
 				<key>1</key>
 				<dict>
 					<key>name</key>
-					<string>variable.function.zig</string>
+					<string>variable.function.zen</string>
 				</dict>
 				<key>2</key>
 				<dict>
 					<key>name</key>
-					<string>punctuation.section.parens.begin.zig</string>
+					<string>punctuation.section.parens.begin.zen</string>
 				</dict>
 			</dict>
 			<key>contentName</key>
-			<string>meta.function-call.zig</string>
+			<string>meta.function-call.zen</string>
 			<key>end</key>
 			<string>(\))</string>
 			<key>endCaptures</key>
@@ -491,7 +532,7 @@
 				<key>1</key>
 				<dict>
 					<key>name</key>
-					<string>punctuation.section.parens.end.zig</string>
+					<string>punctuation.section.parens.end.zen</string>
 				</dict>
 			</dict>
 			<key>patterns</key>
@@ -506,12 +547,12 @@
 						<key>1</key>
 						<dict>
 							<key>name</key>
-							<string>punctuation.separator.zig</string>
+							<string>punctuation.separator.zen</string>
 						</dict>
 						<key>2</key>
 						<dict>
 							<key>name</key>
-							<string>punctuation.section.parens.end.zig</string>
+							<string>punctuation.section.parens.end.zen</string>
 						</dict>
 					</dict>
 					<key>match</key>
@@ -527,37 +568,37 @@
 					<key>match</key>
 					<string>\b(while|for|break|return|continue|asm|defer|errdefer|unreachable)\b</string>
 					<key>name</key>
-					<string>keyword.control.zig</string>
+					<string>keyword.control.zen</string>
 				</dict>
 				<dict>
 					<key>match</key>
 					<string>\b(async|await|suspend|resume|cancel)\b</string>
 					<key>name</key>
-					<string>keyword.control.async.zig</string>
+					<string>keyword.control.async.zen</string>
 				</dict>
 				<dict>
 					<key>match</key>
 					<string>\b(if|else|switch|try|catch|orelse)\b</string>
 					<key>name</key>
-					<string>keyword.control.conditional.zig</string>
+					<string>keyword.control.conditional.zen</string>
 				</dict>
 				<dict>
 					<key>match</key>
 					<string>(?&lt;!\w)(@import|@cImport|@cInclude)\b</string>
 					<key>name</key>
-					<string>keyword.control.import.zig</string>
+					<string>keyword.control.import.zen</string>
 				</dict>
 				<dict>
 					<key>match</key>
 					<string>\busingnamespace\b</string>
 					<key>name</key>
-					<string>keyword.other.usingnamespace.zig</string>
+					<string>keyword.other.usingnamespace.zen</string>
 				</dict>
 				<dict>
 					<key>match</key>
 					<string>\btest\b</string>
 					<key>name</key>
-					<string>keyword.other.test.zig</string>
+					<string>keyword.other.test.zen</string>
 				</dict>
 			</array>
 		</dict>
@@ -569,7 +610,7 @@
 					<key>match</key>
 					<string>(?&lt;!\w):([a-zA-Z_]\w*|@\".+\")</string>
 					<key>name</key>
-					<string>entity.name.label.zig</string>
+					<string>entity.name.label.zen</string>
 				</dict>
 				<dict>
 					<key>begin</key>
@@ -579,17 +620,17 @@
 						<key>1</key>
 						<dict>
 							<key>name</key>
-							<string>entity.name.label.zig</string>
+							<string>entity.name.label.zen</string>
 						</dict>
 						<key>2</key>
 						<dict>
 							<key>name</key>
-							<string>punctuation.section.braces.begin.zig</string>
+							<string>punctuation.section.braces.begin.zen</string>
 						</dict>
 						<key>3</key>
 						<dict>
 							<key>name</key>
-							<string>keyword.control.zig</string>
+							<string>keyword.control.zen</string>
 						</dict>
 					</dict>
 					<key>end</key>
@@ -599,7 +640,7 @@
 						<key>1</key>
 						<dict>
 							<key>name</key>
-							<string>punctuation.section.braces.end.zig</string>
+							<string>punctuation.section.braces.end.zen</string>
 						</dict>
 					</dict>
 					<key>patterns</key>
@@ -624,16 +665,16 @@
 						<key>1</key>
 						<dict>
 							<key>name</key>
-							<string>storage.type.function.zig</string>
+							<string>storage.type.function.zen</string>
 						</dict>
 						<key>2</key>
 						<dict>
 							<key>name</key>
-							<string>punctuation.section.parens.begin.zig</string>
+							<string>punctuation.section.parens.begin.zen</string>
 						</dict>
 					</dict>
 					<key>contentName</key>
-					<string>meta.parameters.zig</string>
+					<string>meta.parameters.zen</string>
 					<key>end</key>
 					<string>(\))\s*([a-zA-Z_][a-zA-Z0-9_.]*|@\".+\")?</string>
 					<key>endCaptures</key>
@@ -641,12 +682,12 @@
 						<key>1</key>
 						<dict>
 							<key>name</key>
-							<string>punctuation.section.parens.end.zig</string>
+							<string>punctuation.section.parens.end.zen</string>
 						</dict>
 						<key>2</key>
 						<dict>
 							<key>name</key>
-							<string>storage.type.zig</string>
+							<string>storage.type.zen</string>
 						</dict>
 					</dict>
 					<key>patterns</key>
@@ -657,12 +698,12 @@
 								<key>1</key>
 								<dict>
 									<key>name</key>
-									<string>storage.type.zig</string>
+									<string>storage.type.zen</string>
 								</dict>
 								<key>2</key>
 								<dict>
 									<key>name</key>
-									<string>punctuation.separator.zig</string>
+									<string>punctuation.separator.zen</string>
 								</dict>
 							</dict>
 							<key>match</key>
@@ -678,21 +719,21 @@
 						<key>1</key>
 						<dict>
 							<key>name</key>
-							<string>storage.type.function.zig</string>
+							<string>storage.type.function.zen</string>
 						</dict>
 						<key>2</key>
 						<dict>
 							<key>name</key>
-							<string>entity.name.function.zig</string>
+							<string>entity.name.function.zen</string>
 						</dict>
 						<key>3</key>
 						<dict>
 							<key>name</key>
-							<string>punctuation.section.parens.begin.zig</string>
+							<string>punctuation.section.parens.begin.zen</string>
 						</dict>
 					</dict>
 					<key>contentName</key>
-					<string>meta.function.parameters.zig</string>
+					<string>meta.function.parameters.zen</string>
 					<key>end</key>
 					<string>(?&lt;=\))\s*([a-zA-Z_][a-zA-Z0-9_.]*|@\".+\")?</string>
 					<key>endCaptures</key>
@@ -700,7 +741,7 @@
 						<key>1</key>
 						<dict>
 							<key>name</key>
-							<string>storage.type.zig</string>
+							<string>storage.type.zen</string>
 						</dict>
 					</dict>
 					<key>patterns</key>
@@ -717,27 +758,27 @@
 						<key>1</key>
 						<dict>
 							<key>name</key>
-							<string>storage.modifier.zig</string>
+							<string>storage.modifier.zen</string>
 						</dict>
 						<key>2</key>
 						<dict>
 							<key>name</key>
-							<string>variable.other.zig</string>
+							<string>variable.other.zen</string>
 						</dict>
 						<key>3</key>
 						<dict>
 							<key>name</key>
-							<string>punctuation.terminator.zig</string>
+							<string>punctuation.terminator.zen</string>
 						</dict>
 						<key>4</key>
 						<dict>
 							<key>name</key>
-							<string>storage.type.zig</string>
+							<string>storage.type.zen</string>
 						</dict>
 						<key>5</key>
 						<dict>
 							<key>name</key>
-							<string>keyword.operator.assignment.zig</string>
+							<string>keyword.operator.assignment.zen</string>
 						</dict>
 					</dict>
 					<key>match</key>
@@ -809,43 +850,43 @@
 					<key>match</key>
 					<string>\b!\b</string>
 					<key>name</key>
-					<string>keyword.operator.zig</string>
+					<string>keyword.operator.zen</string>
 				</dict>
 				<dict>
 					<key>match</key>
 					<string>(==|(?:!|&gt;|&lt;)=?)</string>
 					<key>name</key>
-					<string>keyword.operator.logical.zig</string>
+					<string>keyword.operator.logical.zen</string>
 				</dict>
 				<dict>
 					<key>match</key>
 					<string>\b(and|or)\b</string>
 					<key>name</key>
-					<string>keyword.operator.word.zig</string>
+					<string>keyword.operator.word.zen</string>
 				</dict>
 				<dict>
 					<key>match</key>
 					<string>((?:(?:\+|-|\*)\%?|/|%|&lt;&lt;|&gt;&gt;|&amp;|\|(?=[^\|])|\^)?=)</string>
 					<key>name</key>
-					<string>keyword.operator.assignment.zig</string>
+					<string>keyword.operator.assignment.zen</string>
 				</dict>
 				<dict>
 					<key>match</key>
 					<string>((?:\+|-|(?&lt;=\w)\s*\*)\%?|/(?!/)|%)</string>
 					<key>name</key>
-					<string>keyword.operator.arithmetic.zig</string>
+					<string>keyword.operator.arithmetic.zen</string>
 				</dict>
 				<dict>
 					<key>match</key>
 					<string>(&lt;&lt;|&gt;&gt;|&amp;(?=\W)|\|(?=[^\|])|\^|~)</string>
 					<key>name</key>
-					<string>keyword.operator.bitwise.zig</string>
+					<string>keyword.operator.bitwise.zen</string>
 				</dict>
 				<dict>
 					<key>match</key>
 					<string>(\+\+|\*\*|-&gt;|\.\?|\.\*|&amp;(?=\w)|\?|\|\||\.\.|\.\.\.)</string>
 					<key>name</key>
-					<string>keyword.operator.other.zig</string>
+					<string>keyword.operator.other.zen</string>
 				</dict>
 			</array>
 		</dict>
@@ -858,21 +899,21 @@
 				<key>1</key>
 				<dict>
 					<key>name</key>
-					<string>storage.modifier.zig</string>
+					<string>storage.modifier.zen</string>
 				</dict>
 				<key>2</key>
 				<dict>
 					<key>name</key>
-					<string>variable.parameter.zig</string>
+					<string>variable.parameter.zen</string>
 				</dict>
 				<key>3</key>
 				<dict>
 					<key>name</key>
-					<string>punctuation.terminator.zig</string>
+					<string>punctuation.terminator.zen</string>
 				</dict>
 			</dict>
 			<key>contentName</key>
-			<string>storage.type.zig</string>
+			<string>storage.type.zen</string>
 			<key>end</key>
 			<string>(?:(,)|(?:\)))</string>
 			<key>endCaptures</key>
@@ -880,12 +921,12 @@
 				<key>1</key>
 				<dict>
 					<key>name</key>
-					<string>punctuation.separator.zig</string>
+					<string>punctuation.separator.zen</string>
 				</dict>
 				<key>2</key>
 				<dict>
 					<key>name</key>
-					<string>punctuation.section.parens.end.zig</string>
+					<string>punctuation.section.parens.end.zen</string>
 				</dict>
 			</dict>
 			<key>patterns</key>
@@ -904,13 +945,13 @@
 					<key>match</key>
 					<string>,</string>
 					<key>name</key>
-					<string>punctuation.separator.zig</string>
+					<string>punctuation.separator.zen</string>
 				</dict>
 				<dict>
 					<key>match</key>
 					<string>;</string>
 					<key>name</key>
-					<string>punctuation.terminator.zig</string>
+					<string>punctuation.terminator.zen</string>
 				</dict>
 				<dict>
 					<key>begin</key>
@@ -920,11 +961,11 @@
 						<key>1</key>
 						<dict>
 							<key>name</key>
-							<string>punctuation.section.parens.begin.zig</string>
+							<string>punctuation.section.parens.begin.zen</string>
 						</dict>
 					</dict>
 					<key>contentName</key>
-					<string>meta.group.zig</string>
+					<string>meta.group.zen</string>
 					<key>end</key>
 					<string>(\))</string>
 					<key>endCaptures</key>
@@ -932,7 +973,7 @@
 						<key>1</key>
 						<dict>
 							<key>name</key>
-							<string>punctuation.section.parens.end.zig</string>
+							<string>punctuation.section.parens.end.zen</string>
 						</dict>
 					</dict>
 					<key>patterns</key>
@@ -953,34 +994,34 @@
 					<key>match</key>
 					<string>\b(bool|void|noreturn|type|anyerror|promise)\b</string>
 					<key>name</key>
-					<string>storage.type.zig</string>
+					<string>storage.type.zen</string>
 				</dict>
 				<dict>
 					<key>match</key>
 					<string>\b(?&lt;!\.)([iu][0-9]\d*|[iu]size|comptime_int)\b</string>
 					<key>name</key>
-					<string>storage.type.integer.zig</string>
+					<string>storage.type.integer.zen</string>
 				</dict>
 				<dict>
 					<key>match</key>
 					<string>\b(f16|f32|f64|f128|comptime_float)\b</string>
 					<key>name</key>
-					<string>storage.type.float.zig</string>
+					<string>storage.type.float.zen</string>
 				</dict>
 				<dict>
 					<key>match</key>
 					<string>\b(c_short|c_ushort|c_int|c_uint|c_long|c_ulong|c_longlong|c_ulonglong|c_longdouble|c_void)\b</string>
 					<key>name</key>
-					<string>storage.type.c_compat.zig</string>
+					<string>storage.type.c_compat.zen</string>
 				</dict>
 			</array>
 		</dict>
 		<key>storage_modifier</key>
 		<dict>
 			<key>match</key>
-			<string>\b(const|var|extern|packed|export|pub|noalias|inline|comptime|nakedcc|stdcallcc|volatile|align|linksection|threadlocal|allowzero)\b</string>
+			<string>\b(const|var|extern|packed|export|pub|noalias|inline|comptime|nakedcc|stdcallcc|volatile|align|linksection|threadlocal|allowzero|vtable)\b</string>
 			<key>name</key>
-			<string>storage.modifier.zig</string>
+			<string>storage.modifier.zen</string>
 		</dict>
 		<key>strings</key>
 		<dict>
@@ -992,7 +1033,7 @@
 					<key>end</key>
 					<string>\'</string>
 					<key>name</key>
-					<string>string.quoted.single.zig</string>
+					<string>string.quoted.single.zen</string>
 					<key>patterns</key>
 					<array>
 						<dict>
@@ -1003,7 +1044,7 @@
 							<key>match</key>
 							<string>\\[^\'][^\']*?</string>
 							<key>name</key>
-							<string>invalid.illegal.character.zig</string>
+							<string>invalid.illegal.character.zen</string>
 						</dict>
 					</array>
 				</dict>
@@ -1013,7 +1054,7 @@
 					<key>end</key>
 					<string>\"</string>
 					<key>name</key>
-					<string>string.quoted.double.zig</string>
+					<string>string.quoted.double.zen</string>
 					<key>patterns</key>
 					<array>
 						<dict>
@@ -1024,7 +1065,7 @@
 							<key>match</key>
 							<string>\\[^\'][^\']*?</string>
 							<key>name</key>
-							<string>invalid.illegal.character.zig</string>
+							<string>invalid.illegal.character.zen</string>
 						</dict>
 					</array>
 				</dict>
@@ -1034,7 +1075,7 @@
 					<key>end</key>
 					<string>$\n?</string>
 					<key>name</key>
-					<string>string.quoted.other.zig</string>
+					<string>string.quoted.other.zen</string>
 				</dict>
 			</array>
 		</dict>
@@ -1043,10 +1084,10 @@
 			<key>match</key>
 			<string>(?&lt;!\w)@[^\"\d][a-zA-Z_]\w*\b</string>
 			<key>name</key>
-			<string>support.function.zig</string>
+			<string>support.function.zen</string>
 		</dict>
 	</dict>
 	<key>scopeName</key>
-	<string>source.zig</string>
+	<string>source.zen</string>
 </dict>
 </plist>

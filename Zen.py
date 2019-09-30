@@ -13,12 +13,12 @@ class Zig(sublime_plugin.EventListener):
         sel = view.sel()[0]
         region = view.word(sel)
         scope = view.scope_name(region.b)
-        if scope.find('source.zig') != -1:
-            should_fmt = get_setting(view, 'zig.fmt.on_save', True)
-            should_build = get_setting(view, 'zig.build.on_save', False)
+        if scope.find('source.zen') != -1:
+            should_fmt = get_setting(view, 'zen.fmt.on_save', True)
+            should_build = get_setting(view, 'zen.build.on_save', False)
 
             if (should_fmt and not should_build):
-                mode = get_setting(view, 'zig.fmt.mode', 'File').title()
+                mode = get_setting(view, 'zen.fmt.mode', 'File').title()
                 view.window().run_command('build', {'variant': 'Format ' + mode})
             elif (should_build and not should_fmt):
                 view.window().run_command('build')

@@ -8,15 +8,15 @@
                 "children":
                 [
                     {
-                        "caption": "Zig",
+                        "caption": "Zen",
                         "children":
                         [
                             {
                                 "caption": "Settings",
                                 "command": "edit_settings",
                                 "args": {
-                                    "base_file": "${packages}/Zig Language/Settings/Zig.sublime-settings",
-                                    "default": "// Settings in here override those in \"Zig Language/Settings/Zig.sublime-settings\",\n\n{\n\t$0\n}\n"
+                                    "base_file": "${packages}/Zen Language/Settings/Zen.sublime-settings",
+                                    "default": "// Settings in here override those in \"Zen Language/Settings/Zen.sublime-settings\",\n\n{\n\t$0\n}\n"
                                 },
                             },
                         ]

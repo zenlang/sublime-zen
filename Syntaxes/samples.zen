@@ -262,6 +262,7 @@ foo = bar;
 @typeOf
 
 *const asasd
+*vtable I
 
 pub extern "hellas" export fn @"eeeasla"(as: FN) userdata;
 
@@ -271,6 +272,8 @@ pub extern "hellas" export fn hello(as: as) OO {
 
 pub extern "ole32" stdcallcc fn CoTaskMemFree(pv: *const LPVOID,        asda: asdsad, sacz: @"zxc", )void;
 pub stdcallcc fn CoUninitialize() void;
+
+pub const I = interface {};
 
 pub const Foo = extern struct {
 

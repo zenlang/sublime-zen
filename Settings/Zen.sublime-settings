@@ -1,0 +1,6 @@
+{
+    "zen.executable": "zen",
+    "zen.build.on_save": false,
+    "zen.fmt.on_save": true,
+    "zen.fmt.mode": "file",
+}

@@ -1,41 +1,41 @@
 {
-    "cmd": ["zig", "build"],
-    "selector": "source.zig",
+    "cmd": ["zen", "build"],
+    "selector": "source.zen",
     "working_dir": "$folder",
     "file_regex": "^(\\S.*):(\\d*):(\\d*): (?:[^:]*): (.*)$",
     "line_regex": "^(?:\\S.*):(\\d*):(\\d*): (?:[^:]*): (.*)$",
 
     "variants": [
         {
-            "cmd": ["zig", "run", "$file"],
-            "selector": "source.zig",
+            "cmd": ["zen", "run", "$file"],
+            "selector": "source.zen",
             "name": "Run File"
         },
         {
-            "cmd": ["zig", "test", "$file"],
-            "selector": "source.zig",
+            "cmd": ["zen", "test", "$file"],
+            "selector": "source.zen",
             "name": "Test File"
         },
         {
-            "cmd": ["zig", "fmt", "$file"],
-            "selector": "source.zig",
+            "cmd": ["zen", "fmt", "$file"],
+            "selector": "source.zen",
             "name": "Format File"
         },
         {
-            "cmd": ["zig", "build", "test"],
-            "selector": "source.zig",
+            "cmd": ["zen", "build", "test"],
+            "selector": "source.zen",
             "working_dir": "$folder",
             "name": "Test Project"
         },
         {
-            "cmd": ["zig", "build"],
-            "selector": "source.zig",
+            "cmd": ["zen", "build"],
+            "selector": "source.zen",
             "working_dir": "$folder",
             "name": "Build Project"
         },
         {
-            "cmd": ["zig", "fmt", "$folder"],
-            "selector": "source.zig",
+            "cmd": ["zen", "fmt", "$folder"],
+            "selector": "source.zen",
             "name": "Format Project"
         },
     ]

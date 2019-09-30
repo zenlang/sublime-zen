@@ -3,9 +3,9 @@
 <plist version="1.0">
 <dict>
 	<key>name</key>
-	<string>Zig</string>
+	<string>Zen</string>
 	<key>scope</key>
-	<string>source.zig</string>
+	<string>source.zen</string>
 	<key>settings</key>
 	<dict>
 		<key>shellVariables</key>
