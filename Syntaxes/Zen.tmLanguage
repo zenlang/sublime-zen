@@ -992,7 +992,7 @@
 			<array>
 				<dict>
 					<key>match</key>
-					<string>\b(bool|void|noreturn|type|anyerror|promise)\b</string>
+					<string>\b(bool|void|noreturn|type|anyerror|promise|anyframe|anytype)\b</string>
 					<key>name</key>
 					<string>storage.type.zen</string>
 				</dict>
@@ -1019,7 +1019,7 @@
 		<key>storage_modifier</key>
 		<dict>
 			<key>match</key>
-			<string>\b(const|var|extern|packed|export|pub|noalias|inline|comptime|nakedcc|stdcallcc|volatile|align|linksection|threadlocal|allowzero|vtable)\b</string>
+			<string>\b(const|var|extern|packed|export|pub|noalias|inline|comptime|volatile|align|linksection|threadlocal|allowzero|vtable|deprecated|callconv)\b</string>
 			<key>name</key>
 			<string>storage.modifier.zen</string>
 		</dict>

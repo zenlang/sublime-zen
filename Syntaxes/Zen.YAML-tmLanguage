@@ -70,7 +70,7 @@ repository:
 
   storage_modifier:
     name: storage.modifier.zen
-    match: '\b(const|var|extern|packed|export|pub|noalias|inline|comptime|nakedcc|stdcallcc|volatile|align|linksection|threadlocal|allowzero|vtable)\b'
+    match: '\b(const|var|extern|packed|export|pub|noalias|inline|comptime|volatile|align|linksection|threadlocal|allowzero|vtable|deprecated|callconv)\b'
 
   container_decl:
     patterns:
@@ -307,7 +307,7 @@ repository:
   storage:
     patterns:
       - name: storage.type.zen
-        match: '\b(bool|void|noreturn|type|anyerror|promise)\b'
+        match: '\b(bool|void|noreturn|type|anyerror|promise|anyframe|anytype)\b'
 
       - name: storage.type.integer.zen
         match: '\b(?<!\.)([iu][0-9]\d*|[iu]size|comptime_int)\b'

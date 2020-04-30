@@ -1,7 +1,7 @@
 // this is a syntactically meaningless collection of sample
 // keywords and constructs to use in testing.
 
-const var extern packed export pub noalias inline comptime nakedcc stdcallcc volatile align linksection threadlocal
+const var extern packed export pub noalias inline comptime volatile align linksection threadlocal deprecated callconv
 
  const as = 2;
 union
@@ -23,7 +23,7 @@ null undefined
 
 fn usingnamespace test
 
-bool f16 f32 f64 f128 void noreturn type anyerror
+bool f16 f32 f64 f128 void noreturn type anyerror anyframe anytype
 
 promise
 
@@ -216,22 +216,15 @@ foo = bar;
 @frameAddress
 @handle
 @import
-@inlineCall
 @intCast
 @intToEnum
 @intToError
 @intToFloat
 @intToPtr
-@IntType
-@memberCount
-@memberName
-@memberType
 @memcpy
 @memset
 @mod
 @mulWithOverflow
-@newStackCall
-@noInlineCall
 @OpaqueType
 @panic
 @popCount
@@ -256,7 +249,6 @@ foo = bar;
 @TagType
 @This
 @truncate
-@typeId
 @typeInfo
 @typeName
 @typeOf
