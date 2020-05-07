@@ -263,7 +263,7 @@ repository:
       match: '\b(while|for|break|return|continue|asm|defer|errdefer|unreachable)\b'
 
     - name: keyword.control.async.zen
-      match: '\b(async|await|suspend|resume|cancel)\b'
+      match: '\b(async|await|suspend|resume|cancel|nosuspend)\b'
 
     - name: keyword.control.conditional.zen
       match: '\b(if|else|switch|try|catch|orelse)\b'

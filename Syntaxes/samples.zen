@@ -15,7 +15,7 @@ break return continue asm defer errdefer unreachable
 
 if else switch and or try catch orelse
 
-async await suspend resume cancel
+async await suspend resume cancel nosuspend
 
 while for
 

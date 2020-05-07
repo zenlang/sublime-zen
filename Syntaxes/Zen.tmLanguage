@@ -572,7 +572,7 @@
 				</dict>
 				<dict>
 					<key>match</key>
-					<string>\b(async|await|suspend|resume|cancel)\b</string>
+					<string>\b(async|await|suspend|resume|cancel|nosuspend)\b</string>
 					<key>name</key>
 					<string>keyword.control.async.zen</string>
 				</dict>
