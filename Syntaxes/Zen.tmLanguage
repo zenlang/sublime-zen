@@ -1019,7 +1019,7 @@
 		<key>storage_modifier</key>
 		<dict>
 			<key>match</key>
-			<string>\b(const|var|extern|packed|export|pub|noalias|inline|comptime|volatile|align|linksection|threadlocal|allowzero|vtable|deprecated|callconv)\b</string>
+			<string>\b(const|var|extern|packed|export|pub|noalias|inline|comptime|volatile|align|linksection|threadlocal|allowzero|vtable|deprecated|callconv|mut)\b</string>
 			<key>name</key>
 			<string>storage.modifier.zen</string>
 		</dict>

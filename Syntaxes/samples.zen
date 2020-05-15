@@ -1,7 +1,7 @@
 // this is a syntactically meaningless collection of sample
 // keywords and constructs to use in testing.
 
-const var extern packed export pub noalias inline comptime volatile align linksection threadlocal deprecated callconv
+const var extern packed export pub noalias inline comptime volatile align linksection threadlocal deprecated callconv mut
 
  const as = 2;
 union

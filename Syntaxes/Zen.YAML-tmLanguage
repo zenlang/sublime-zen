@@ -70,7 +70,7 @@ repository:
 
   storage_modifier:
     name: storage.modifier.zen
-    match: '\b(const|var|extern|packed|export|pub|noalias|inline|comptime|volatile|align|linksection|threadlocal|allowzero|vtable|deprecated|callconv)\b'
+    match: '\b(const|var|extern|packed|export|pub|noalias|inline|comptime|volatile|align|linksection|threadlocal|allowzero|vtable|deprecated|callconv|mut)\b'
 
   container_decl:
     patterns:
