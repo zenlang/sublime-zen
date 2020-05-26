@@ -307,7 +307,7 @@ repository:
   storage:
     patterns:
       - name: storage.type.zen
-        match: '\b(bool|void|noreturn|type|anyerror|promise|anyframe|anytype)\b'
+        match: '\b(bool|void|noreturn|type|anyerror|anyframe|anytype)\b'
 
       - name: storage.type.integer.zen
         match: '\b(?<!\.)([iu][0-9]\d*|[iu]size|comptime_int)\b'
